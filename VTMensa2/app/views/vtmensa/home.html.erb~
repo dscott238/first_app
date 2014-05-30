@@ -1,0 +1,45 @@
+
+<div class= "span4">
+<p><%= link_to image_tag("Map_of_Vermont_Regions.png"), id= "VTLogo"%></p>
+</div>
+<div class= "span6">
+<p><%= link_to image_tag("MensaTitle.png"), id= "MensaTitle"%></p>
+</div>
+
+
+<article>
+<title>
+
+</title>
+<div class="hero-unit span3" id="main">
+<h2 id="tit1">What is Vermont Mensa</h2>
+<hr>
+<%= render 'layouts/what_is_mensa' %>
+ 
+
+</div>
+</article>
+
+<div class="hero-unit span2 row" id="main1">
+<h2>Sign In</h2>
+<hr>
+<p>Username</p>
+<input type='text' rows='1' cols= '1'> </input>
+<p>Password</p>
+  
+</div>
+
+
+<article>
+<title>
+
+</title>
+<div class="hero-unit span2" id="main2">
+<h2 id="tit2">How do I Join</h2>
+<hr>
+<%= render 'layouts/how_to_join' %>
+
+</div>
+</article>
+
+

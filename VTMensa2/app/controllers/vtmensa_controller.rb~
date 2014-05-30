@@ -1,0 +1,13 @@
+class VtmensaController < ApplicationController
+  def home
+  end
+
+  def contacts
+  end
+
+  def about
+  end
+
+  def Handbook
+  end
+end

@@ -1,0 +1,14 @@
+<h2 id="tit1">this is a title</h2>
+<h2 id="tit2">this is another title</h2>
+
+<article>
+<div class="center hero-unit" id="main">
+<%= render 'textdoc/text' %>
+</div>
+</article>
+
+<article>
+<div class="center hero-unit" id="main2">
+<%= render 'textdoc/text2' %>
+</div>
+</article>

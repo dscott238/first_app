@@ -1,0 +1,17 @@
+<aside>
+<div class="list">
+<p> Links</p>
+<ul class="nav nav-pills pull-right"> 
+    <li><a href= "#" class= "list-group-item active"></a></li>  
+    <li><a href= "#" class= "list-group-item">Home</a></li>
+    <li><a href= "#" class= "list-group-item">Events</a></li>
+    <li><a href= "#" class= "list-group-item">Test Schedule</a></li>
+    <li><%= link_to "handbook", 'handbook' %></li>
+    <li><a href= "#" class= "list-group-item">American Mensa</a></li>
+    <li><a href= "#" class= "list-group-item">Mensa International</a></li>
+    <li><a href= "#" class= "list-group-item">About</a></li>
+    <li><a href= "#" class= "list-group-item">Contact</a></li>
+</ul>
+</div>
+
+</aside>
