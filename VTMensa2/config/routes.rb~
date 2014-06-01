@@ -5,11 +5,12 @@ VTM::Application.routes.draw do
   get "vtmensa/handbook"
 
   match 'handbook',   to: 'vtmensa#handbook',             via: 'get'
+  match 'home',   to: 'vtmensa#home',             via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root "vtmensa/home"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
